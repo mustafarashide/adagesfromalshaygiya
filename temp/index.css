@@ -1,0 +1,84 @@
+body{
+    background: #FFD9A3;
+    font-family: "Amiri",serif;
+    text-align: center;
+    margin:0;
+}
+.headersection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-bottom:5px solid black;
+
+}
+#title{
+    text-align: right;
+    padding-right: 1em;
+    font-weight: bold;
+    font-size:1.3em;
+}
+.btn{
+    font-weight: 10000px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:150px;
+    padding-bottom:150px;
+}
+#meaning{
+    font-size:1.5em;
+}
+#saying{
+    font-size:2em;
+    font-weight: bold;
+    margin-bottom:0;
+}
+#sources {
+    margin: 15px 15px 15px 50px;
+    padding: 5px 35px;
+    color: white;
+    background: black;
+}
+.btn{
+    border:none;
+    background: #FFD9A3;
+}
+.responsive {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+  }
+
+/* font */
+.amiri-regular {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amiri-bold {
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .amiri-regular-italic {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .amiri-bold-italic {
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
