@@ -27,4 +27,4 @@ class Command(BaseCommand):
             except Adage.DoesNotExist:
                 # create a new adage if it does not exist
                 Adage.objects.create(adage_id=adage_id,adage_text=adage_text,adage_meaning=adage_meaning,review_status=review_status)
-        self.stdout.write(self.style.SUCCESS("Genres loaded successfully."))
+        self.stdout.write(self.style.SUCCESS("Adages loaded successfully."))
