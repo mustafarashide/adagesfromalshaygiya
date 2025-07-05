@@ -1,0 +1,56 @@
+
+body
+{
+    background: #fbae17;		
+
+}
+
+a
+{
+    color: #e4e6dd;
+    text-decoration:none;
+}
+
+#container
+{
+    background: #fbae17;
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: bold;
+    color: #e4e6dd;
+    max-width:1080px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-size: 80px;
+    font-size: 7vmax;
+    overflow-wrap: break-word;	
+    
+}
+
+#refresh
+{
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 20px;		
+    font-size: 3vmax;
+    font-weight: normal;
+    margin-top:5%;
+    
+}
+
+.left
+{
+    float:left;
+    padding-right:20px;
+    padding-bottom:10px;
+    
+}
+
+
+@media screen and (min-device-width: 800px) {
+
+    #refresh
+    {
+        font-size: 25px;
+    }
+}

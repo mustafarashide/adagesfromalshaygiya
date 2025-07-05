@@ -1,0 +1,22 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'adages/style.css' %}">
+
+<!doctype html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <title>من امثال الشايقية</title>
+  </head>
+  <body>
+    <div id="container">
+      {{random_adage.adage_text}}
+      <div id="refresh">
+        <div class="right">
+          <a href="/"><span class="fa fa-refresh">أرني مثلا آخر</span></a>
+        </div>
+        <div class="left"><a href="https://www.github.com/mustafarashide" target="_blank"><span class="fa fa-github"></span>تابعني على GitHub</a></div>
+      </div>
+    </div>
+  </body>
+</html>
