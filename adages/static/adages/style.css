@@ -13,7 +13,6 @@ a
 
 #container
 {
-    background: #fbae17;
     font-family: Helvetica, sans-serif, Arial;
     font-weight: bold;
     color: #e4e6dd;
@@ -38,6 +37,11 @@ a
     
 }
 
+.meaning
+{   padding-top:3%;
+    font-size: 25px;
+}
+
 .left
 {
     float:right;
@@ -59,6 +63,7 @@ a
     width: 100%;
     color: white;
     text-align: center;
+    padding-bottom:3%;
   }
 
 @media screen and (min-device-width: 800px) {
